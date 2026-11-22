@@ -1,0 +1,23 @@
+# Core
+anthropic>=0.40.0
+openai>=1.12.0
+python-dotenv>=1.0.0
+rich>=13.0.0
+
+# Audio
+sounddevice>=0.4.6
+soundfile>=0.12.0
+numpy>=1.24.0
+
+# MP3 decoding for both TTS engines (src/tts.py); bundles its own ffmpeg libs
+av>=11.0.0
+
+# STT - faster-whisper (CTranslate2 optimized)
+faster-whisper>=1.0.0
+
+# TTS fallback (free, Microsoft Edge voices)
+edge-tts>=6.1.0
+
+# VAD - Silero Voice Activity Detection
+torch>=2.0.0
+torchaudio>=2.0.0
